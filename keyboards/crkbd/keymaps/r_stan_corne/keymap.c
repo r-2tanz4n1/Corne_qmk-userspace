@@ -56,11 +56,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_FN] = LAYOUT_split_3x6_3_ex2(
   //,--------------------------------------------------------------.  ,--------------------------------------------------------------.
-  QK_BOOT, G(C(S(A(KC_1)))), G(C(S(A(KC_2)))), G(C(S(A(KC_3)))), G(C(S(A(KC_4)))), G(C(S(A(KC_5)))), RGB_MOD, RGB_VAI, C(S(KC_1)),    C(S(KC_W)),    C(S(KC_E)),    C(S(KC_R)),     C(S(KC_T)),     C(S(KC_3)),
+  QK_BOOT, G(C(S(A(KC_1)))), G(C(S(A(KC_2)))), G(C(S(A(KC_3)))), G(C(S(A(KC_4)))), G(C(S(A(KC_5)))), RM_NEXT, RM_VALU, C(S(KC_1)),    C(S(KC_W)),    C(S(KC_E)),    C(S(KC_R)),     C(S(KC_T)),     C(S(KC_3)),
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-  RGB_HUI, G(C(S(A(KC_6)))), G(C(S(A(KC_7)))), G(C(S(A(KC_8)))), G(C(S(A(KC_9)))), G(C(S(A(KC_0)))), RGB_TOG, RGB_VAD, C(S(KC_2)),    C(S(KC_S)),    C(S(KC_D)),    C(S(KC_F)),     C(S(KC_G)),     C(S(KC_4)),
+  RM_HUEU, G(C(S(A(KC_6)))), G(C(S(A(KC_7)))), G(C(S(A(KC_8)))), G(C(S(A(KC_9)))), G(C(S(A(KC_0)))), RM_TOGG, RM_VALD, C(S(KC_2)),    C(S(KC_S)),    C(S(KC_D)),    C(S(KC_F)),     C(S(KC_G)),     C(S(KC_4)),
   //|--------+--------+--------+--------+--------+--------+--------'  `--------+--------+--------+--------+--------+--------+--------|
-  RGB_HUD, KC_NO, KC_MPRV, KC_MPLY, KC_MNXT, KC_NO,            C(S(KC_Z)),    C(S(KC_X)),    C(S(KC_C)),    C(S(KC_V)),     C(S(KC_B)),     C(S(KC_5)),
+  RM_HUED, KC_NO, KC_MPRV, KC_MPLY, KC_MNXT, KC_NO,            C(S(KC_Z)),    C(S(KC_X)),    C(S(KC_C)),    C(S(KC_V)),     C(S(KC_B)),     C(S(KC_5)),
   //|--------+--------+--------+--------+--------+--------+--------.  ,--------+--------+--------+--------+--------+--------+--------|
                                               KC_NO, KC_NO, KC_NO,      KC_NO, KC_NO, KC_NO
                                       //`--------------------------'  `--------------------------'
