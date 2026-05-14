@@ -118,7 +118,7 @@ combo_t key_combos[COMBO_LENGTH] = {
     [CB_QUES]      = COMBO(cb_ques, S(KC_MINUS)),
     [CB_SLSH]      = COMBO(cb_slsh, S(KC_7)),
 
-    [CB_CAPS_WORD] = COMBO(cb_caps_word, CAPS_WORD),
+    [CB_CAPS_WORD] = COMBO(cb_caps_word, CW_TOGG),
     [CB_LT]        = COMBO(cb_lt, KC_NUBS),
     [CB_GT]        = COMBO(cb_gt, S(KC_NUBS)),
     [CB_LPRN]      = COMBO(cb_lprn, S(KC_8)),
