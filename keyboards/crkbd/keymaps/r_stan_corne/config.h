@@ -16,7 +16,6 @@
 
 #define CAPS_WORD_IDLE_TIMEOUT 5000
 
-#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 50
 #define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_REACTIVE
 #define RGB_MATRIX_KEYPRESSES // enable reactive effects on keypress
 #define RGB_MATRIX_SLEEP // allow matrix to turn off on suspend if desired
