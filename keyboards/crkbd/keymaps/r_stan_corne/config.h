@@ -1,6 +1,6 @@
 #pragma once
 
-#define MASTER_RIGHT
+//#define MASTER_RIGHT
 
 #define TAPPING_TERM 145
 #define QUICK_TAP_TERM 110
@@ -22,5 +22,3 @@
 
 #define PERMISSIVE_HOLD
 #define HOLD_ON_OTHER_KEY_PRESS
-
-#define DEBUG_MATRIX_SCAN_RATE
